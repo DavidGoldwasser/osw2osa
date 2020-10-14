@@ -1,0 +1,237 @@
+{
+   "file_paths" : 
+   [
+      "../../../weather",
+      "../../../seeds",
+      "../../../files"
+   ],
+   "hash" : "F3418435",
+   "measure_paths" : 
+   [
+      "../../measures",
+      "../../../measures"
+   ],
+   "seed_file" : "example_multi_template.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
+         },
+         "measure_dir_name" : "ChangeBuildingLocation"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_101.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_102.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_103.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_104.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_105.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_106.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_107.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_108.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_109.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_201.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_202.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_203.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_204.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_205.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_206.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_207.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_208.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "add_spaces" : true,
+            "external_model_name" : "unit_209.osm",
+            "merge_geometry" : true,
+            "remove_spaces" : false
+         },
+         "measure_dir_name" : "merge_spaces_from_external_file"
+      },
+      {
+         "arguments" : 
+         {
+            "__SKIP__" : true
+         },
+         "measure_dir_name" : "create_typical_building_from_model"
+      },
+      {
+         "arguments" : 
+         {
+            "__SKIP__" : false
+         },
+         "measure_dir_name" : "view_model"
+      },
+      {
+         "arguments" : 
+         {
+            "__SKIP__" : false,
+            "cell_efficiency" : "0.1976",
+            "fraction_of_surface" : "0.75",
+            "inverter_efficiency" : "0.96"
+         },
+         "measure_dir_name" : "add_rooftop_pv"
+      },
+      {
+         "arguments" : 
+         {
+            "zone_condition_section" : false
+         },
+         "measure_dir_name" : "openstudio_results"
+      }
+   ],
+   "updated_at" : "20201014T031302Z"
+}
