@@ -3,16 +3,18 @@ This repo is a sample deployment of ruby scripts used to generate OSA files from
 
 - Instructions
     - Requires Ruby 2.5.5.
-    - Requires OpenStudio 3.0.x
+    - Requires OpenStudio 3.1.0
     - install bundle using `gem install bundle` at the command prompt
     - from top level of repository type `bundle install` at the command prompt
        - This should result in a `.bundle` directory which contains all of the measure gems necessary for the workflows described in this repository. Any measures that are not in a measure gems and are unique to this project can be in the `measures` directory at the top level of the repository.
        - Do not add altered copies of measures from other repositories in this repositories `measures` directory. Instead alter the `Gemfile` for the branch of the measure gem repository that has the desired version of the measure.
+       - If bundle fails on windows because paths are too long try to enter `git config --system core.longpaths true` at the command promt, and then try `bundle install` again.
     - Most functionality is via Rake tasks. At the command prompt type `bundle exec rake -T` to see a list of functions; some of which are described below. When calling any tasks use `bundle exec rake task_name`. Some tasks take an argument `bundle exec rake task_name[args]`.
         - rake clear_run                                                    # Delete contents under run directory
         - rake find_bundle_measure_paths                                    # Find Bundle measure paths to add to bundle osws
         - rake find_osws                                                    # List OSW files in the measures workflows directory
-        - rake run_all_osws                                                 # Run all osws
+        - rake run_all_osws[measures_only]                                  # Run all osws        
+        - rake run_osw[workflow_name,measures_only]                         # Run single osw
         - rake run_osw[workflow_name,measures_only]                         # Run single osw
         - rake setup_all_osws                                               # Setup all osw files to use bundler gems for measure paths
         - rake setup_non_gem_measures                                       # setup additional measures that are not measure gems as if they were installed with bundle install
@@ -26,6 +28,7 @@ This repo is a sample deployment of ruby scripts used to generate OSA files from
         - Currently you need to run the meta-cli to send the analysis to an already running OpenStudio server. In the future additional Rake tasks may support this.
         - When you no longer want to keep run files  calling the `clear_run` Rake tasks will delete the `run` directory and all files underneath it. Even if you do not clear this out the `.gitignore` file will be setup to exclude these files from the repository. If you want to alter or make new OSW files, changes should be made in the `workflows` directory at the top level of the repository, not in `run/workflows`.
         - If your command line doesn't accept rake arguments then try adding a `\` before the open anc closing bracket or and `unsetopt nomatch` to the `.zshrc` file in your user account.
+    - Not setup with Ruby, or don't want to use bundle and rake. Checkout this branch which has the run directory pre-populated. https://github.com/DavidGoldwasser/osw2osa/tree/pre_bundled/run. You can run it with the OpenStudio CLI without Ruby.
 - Repository File Structure
     - workflows
         - This contains OSW files that can be run as single datapoints, or used with `osw_2_osa.rb` to setup one or multiple OSA files. Note that this repository was originally setup with measure repos checked out alongside this repository. The measure paths reflect that and can be run as is if the additional repositories are checked out and in the proper location. Generally however OSW's should be setup in the run directory to use measure gems installed by `bundle install`
