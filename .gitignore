@@ -2,8 +2,5 @@
 .bundle/install
 Gemfile.lock
 **/run/analyses
-**/reports
-**/generated_files
-out.osw
 */*/tests/output
 .DS_Store
