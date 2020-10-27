@@ -5,7 +5,7 @@
       "../../../seeds",
       "../../../files"
    ],
-   "hash" : "4CA829C0",
+   "hash" : "1AA3EBE2",
    "measure_paths" : 
    [
       "../../measures",
@@ -17,16 +17,16 @@
       {
          "arguments" : 
          {
-            "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
+            "floorplan_path" : "../files/office_floorplan.json"
          },
-         "measure_dir_name" : "ChangeBuildingLocation"
+         "measure_dir_name" : "merge_floorspace_js_with_model"
       },
       {
          "arguments" : 
          {
-            "floorplan_path" : "../files/office_floorplan.json"
+            "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
          },
-         "measure_dir_name" : "merge_floorspace_js_with_model"
+         "measure_dir_name" : "ChangeBuildingLocation"
       },
       {
          "arguments" : 
@@ -61,6 +61,6 @@
          "measure_dir_name" : "openstudio_results"
       }
    ],
-   "updated_at" : "20201014T031302Z",
+   "updated_at" : "20201027T050110Z",
    "weather_file" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
 }

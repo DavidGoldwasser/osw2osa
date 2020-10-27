@@ -5,7 +5,7 @@
       "../../../seeds",
       "../../../files"
    ],
-   "hash" : "282B55B1",
+   "hash" : "C432DB34",
    "measure_paths" : 
    [
       "../../measures",
@@ -24,14 +24,6 @@
       {
          "arguments" : 
          {
-            "__SKIP__" : false,
-            "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
-         },
-         "measure_dir_name" : "ChangeBuildingLocation"
-      },
-      {
-         "arguments" : 
-         {
             "floorplan_path" : "ze_multifamily_floorplan.json",
             "num_bathrooms" : "2",
             "num_bedrooms" : "2, 1, 1, 1, 0, 0, 0, 2, 2, 0, 1, 1, 1, 1, 3, 2, 1, 1, 1, 0, 0, 0, 2, 2, 0, 1, 1, 1, 1, 3, 2, 1, 1, 1, 0, 0, 0, 2, 2, 0, 1, 1, 1, 1, 3",
@@ -41,6 +33,14 @@
             "occupants_weekend_sch" : "1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 0.88, 0.41, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.29, 0.55, 0.90, 0.90, 0.90, 1.00, 1.00, 1.00"
          },
          "measure_dir_name" : "ResidentialGeometryCreateFromFloorspaceJS"
+      },
+      {
+         "arguments" : 
+         {
+            "__SKIP__" : false,
+            "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
+         },
+         "measure_dir_name" : "ChangeBuildingLocation"
       },
       {
          "arguments" : 
@@ -341,5 +341,5 @@
          "measure_dir_name" : "ServerDirectoryCleanup"
       }
    ],
-   "updated_at" : "20201014T052638Z"
+   "updated_at" : "20201027T050111Z"
 }

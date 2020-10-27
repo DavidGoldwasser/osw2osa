@@ -5,7 +5,7 @@
       "../../../seeds",
       "../../../files"
    ],
-   "hash" : "9ADA19A6",
+   "hash" : "48D18464",
    "measure_paths" : 
    [
       "../../measures",
@@ -60,5 +60,5 @@
          "measure_dir_name" : "openstudio_results"
       }
    ],
-   "updated_at" : "20201014T031301Z"
+   "updated_at" : "20201027T050109Z"
 }
