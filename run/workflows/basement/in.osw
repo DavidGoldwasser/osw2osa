@@ -5,7 +5,7 @@
       "../../../seeds",
       "../../../files"
    ],
-   "hash" : "710247B7",
+   "hash" : "1F4AB08C",
    "measure_paths" : 
    [
       "../../measures",
@@ -25,12 +25,12 @@
          "arguments" : 
          {
             "bar_sep_dist_mult" : "2.0",
-            "bldg_type_a" : "MidriseApartment",
+            "bldg_type_a" : "MediumOffice",
             "make_mid_story_surfaces_adiabatic" : true,
             "num_stories_above_grade" : "2.0",
             "num_stories_below_grade" : "1",
             "perim_mult" : "1.75",
-            "template" : "90.1-2013",
+            "template" : "90.1-2004",
             "total_bldg_floor_area" : "25000"
          },
          "measure_dir_name" : "create_bar_from_doe_building_type_ratios"
@@ -57,5 +57,5 @@
          "measure_dir_name" : "openstudio_results"
       }
    ],
-   "updated_at" : "20201027T150622Z"
+   "updated_at" : "20201027T152202Z"
 }
