@@ -11,6 +11,7 @@
   "steps": [
     {
       "arguments": {
+        "set_year": "2019",
         "weather_file_name": "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
       },
       "measure_dir_name": "ChangeBuildingLocation"
@@ -22,7 +23,7 @@
         "total_bldg_floor_area": "210887",
         "ns_to_ew_ratio": "0.0",
         "num_stories_above_grade": "2.0",
-        "num_stories_below_grade": "1",
+        "num_stories_below_grade": "0",
         "make_mid_story_surfaces_adiabatic": true
       },
       "measure_dir_name": "create_bar_from_doe_building_type_ratios"
