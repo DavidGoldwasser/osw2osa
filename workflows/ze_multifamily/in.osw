@@ -282,7 +282,7 @@
     },
     {
       "arguments": {
-        "__SKIP__": true,
+        "__SKIP__": false,
         "swh_type": "Waste Water Heat Pump 120F Supply and Electric Tank"
       },
       "measure_dir_name": "multifamily_central_wwhp"

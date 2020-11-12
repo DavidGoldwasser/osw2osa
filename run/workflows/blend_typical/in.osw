@@ -5,7 +5,7 @@
       "../../../seeds",
       "../../../files"
    ],
-   "hash" : "DA13DAB3",
+   "hash" : "8648B53D",
    "measure_paths" : 
    [
       "../../measures",
@@ -17,6 +17,7 @@
       {
          "arguments" : 
          {
+            "set_year" : "2019",
             "weather_file_name" : "USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw"
          },
          "measure_dir_name" : "ChangeBuildingLocation"
@@ -98,5 +99,5 @@
          "measure_dir_name" : "openstudio_results"
       }
    ],
-   "updated_at" : "20201027T050112Z"
+   "updated_at" : "20201112T224445Z"
 }
